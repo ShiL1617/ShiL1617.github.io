@@ -6,15 +6,12 @@ image: http://unsplash.it/400?random
 ---
 
 ## Overview
-Lorem ipsum dolor sit amet, purto tota in vel, exerci discere apeirian has in. Nec noster iracundia eu, utroque facilis ad has. Alii argumentum no his, omnis iusto scripta vim in, ipsum ridens mel at. Has homero phaedrum no, ea autem affert facilis usu, has possim meliore perpetua id. Errem iisque mea ex, option ocurreret no est. Sea facer ullamcorper ne, cu dictas discere repudiandae sea.
+My degree and coursework say I'm a materials scientist. Yet, my research experience and interests define me as a device engineer. I've been mostly happy working at the intersection of the two fields, but things changed when I was a Masters' student at Penn. The computer vision course there revitalized my interest in programming, made me ponder how areas such as medical imaging could be transformed, and introduced me to the possibility of what robotics could do.
 
-His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
-
-Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
-
-Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
+Coupled with my past experience working with wearable medical devices, I started to wonder how robotics could impact human-machine interfaces. To this end, I'm looking forward to learning all I can, and hopefully establish a career, in medical robotics.
 
 ### Research interests
-* Interest 1
-* Interest 2
-* Interest 3
+* Machine Learning/AI
+* Control Systems
+* Human-Machine Interfaces
+* Medical Robotics
