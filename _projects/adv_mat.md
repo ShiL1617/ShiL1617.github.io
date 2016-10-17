@@ -7,7 +7,7 @@ image: adv_mat.jpg
 
 ## Overview
 
-(above figure from Adv. Mater. 2013, 25, 2773-2778)
+(figure from Adv. Mater. 2013, 25, 2773-2778)
 
 This project was an extension of a previous work on epidermal electronics
 devices for biomedical diagnostics applications. A distinct advantage
