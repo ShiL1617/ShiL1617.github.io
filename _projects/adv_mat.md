@@ -22,5 +22,4 @@ application.
 
 My main responsibilities in this project were device fabrication and testing.
 I was also responsible for experimental design, and quantitative characterization, of the mechanical properties of the encapsulant materials
-used in the device. I was also peripherally involved in device component
-design.
+used in the device. I was also involved in device component design.
