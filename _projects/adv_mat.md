@@ -2,7 +2,7 @@
 layout: project
 title: Multifunctional Epidermal Electronics
 date: February 26, 2013
-image: adv_mat.jpg
+image: multifunctional_EE.jpg
 ---
 
 ## Overview
