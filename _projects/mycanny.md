@@ -2,7 +2,7 @@
 layout: project
 title: Computer Vision Projects
 date: September 24, 2015
-image: mycanny.jpg
+image: RANSAC_hw3.png
 ---
 
 ## Overview
