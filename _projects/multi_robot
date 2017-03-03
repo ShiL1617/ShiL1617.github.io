@@ -7,7 +7,9 @@ image: multi_robot_tf_frames_expanded.png
 
 ## Overview
 
-In this project, I am seeking to simulate multiple wheeled robots to exhibit classical swarm robotics behaviors. One example is leader-follower formation.
+In this project, I am seeking to simulate multiple wheeled robots to
+exhibit classical swarm robotics behaviors. One example is
+leader-follower formation.
 
 I am concurrently building real robots to validate my simulations.
 
