@@ -12,9 +12,7 @@ Here are three projects I implemented for the Computer Vision and Computational 
 
 ### Canny Edge Detection
 
-<p>
-<img src=https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/mycanny.jpg width="600" />
-</p>
+![canny](https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/mycanny.jpg)
 
 This was my custom implementation of the Canny edge detection algorithm,
 for the Computer Vision and Computational Photography course I took Fall
