@@ -16,7 +16,7 @@ since these projects are still used as homework assignments for the course.
 ### Canny Edge Detection
 
 <p align="center">
-<img src="https://github.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/mycanny.jpg" width="600" />
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/mycanny.jpg" width="600" />
 </p>
 
 This was my custom implementation of the Canny edge detection algorithm.
