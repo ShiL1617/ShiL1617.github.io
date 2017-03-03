@@ -2,7 +2,7 @@
 layout: project
 title: Computer Vision Projects
 date: September 24, 2015
-image: RANSAC_hw3_larger.png
+image: RANSAC_clearer.png
 ---
 
 ## Overview
