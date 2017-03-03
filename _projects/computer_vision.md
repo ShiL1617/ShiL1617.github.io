@@ -10,7 +10,7 @@ image: RANSAC_hw3_larger.png
 Here are three projects I implemented for the Computer Vision and Computational Photography course I took Fall 2015 at the University of Pennsylvania.
 
 
-# Canny Edge Detection
+### Canny Edge Detection
 
 ![CannyEdge](https://github.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/mycanny.jpg)
 
@@ -24,7 +24,7 @@ I had taken different approaches to image filtering and edge linking
 hysteresis, which greatly assisted in detection of low-frequency edges.
 
 
-# Image Warping
+### Image Warping
 
 ![imwarp]()
 
@@ -39,7 +39,7 @@ some issues with correspondence points (equivalent feature points on each face).
 feature arrangements on a global scale.
 
 
-# Image Stitching
+### Image Stitching
 
 ![RANSAC]()
 
