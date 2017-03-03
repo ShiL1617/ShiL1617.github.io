@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Fancy Baxter: Table Setting Robot
+title: Fancy Baxter the Table Setting Robot
 date: December 7, 2016
 image: fancy_baxter.png
 ---
