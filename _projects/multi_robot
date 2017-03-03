@@ -5,8 +5,6 @@ date: January 14, 2017
 image: multi_robot_tf_frames_expanded.png
 ---
 
-## Overview
-
 In this project, I am seeking to simulate multiple wheeled robots (differential drive) to exhibit classical swarm robotics behaviors
 such as leader-follower formation.
 
