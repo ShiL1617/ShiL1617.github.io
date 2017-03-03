@@ -9,14 +9,15 @@ image: RANSAC_hw3_larger.png
 
 Here are three projects I implemented for the Computer Vision and Computational Photography course I took Fall 2015 at the University of Pennsylvania.
 
+### Disclaimer
+I did not provide the MATLAB scripts for these projects publicly (github, etc.)
+since these projects are still used as homework assignments for the course.
 
 ### Canny Edge Detection
 
 ![canny_image](https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/mycanny.jpg)
 
-This was my custom implementation of the Canny edge detection algorithm,
-for the Computer Vision and Computational Photography course I took Fall
-2015 at the University of Pennsylvania.
+This was my custom implementation of the Canny edge detection algorithm.
 
 We had followed the approach outlined in the original paper, but were
 given freedom on how to implement the various steps within the algorithm.
