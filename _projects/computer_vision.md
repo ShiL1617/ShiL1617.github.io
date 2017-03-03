@@ -9,9 +9,9 @@ image: RANSAC_hw3_larger.png
 
 Here are three projects I implemented for the Computer Vision and Computational Photography course I took Fall 2015 at the University of Pennsylvania.
 
-Canny Edge Detection
+(pictures and videos coming soon!)
 
-![Screenshot](https://github.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/mycanny.jpg)
+Canny Edge Detection
 
 This was my custom implementation of the Canny edge detection algorithm,
 for the Computer Vision and Computational Photography course I took Fall
@@ -23,3 +23,4 @@ I had taken different approaches to image filtering and edge linking
 hysteresis, which greatly assisted in detection of low-frequency edges.
 
 
+Image Warping
