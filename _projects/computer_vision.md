@@ -19,6 +19,7 @@ since these projects are still used as homework assignments for the course.
 <img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/mycanny.jpg" width="600" />
 </p>
 
+
 This was my custom implementation of the Canny edge detection algorithm.
 
 We had followed the approach outlined in the original paper, but were
@@ -29,7 +30,9 @@ hysteresis, which greatly assisted in detection of low-frequency edges.
 
 ### Image Warping
 
-![imwarp_img](https://github.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/ctr_pts_TPS.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/ctr_pts_TPS.png" width="600" />
+</p>
 
 For this project, I implemented two approaches for image warping
 (transforming one image into another): Delaunay triangulation/barycentric
@@ -44,7 +47,13 @@ feature arrangements on a global scale.
 
 ### Image Stitching
 
-![RANSAC_img](https://github.com/ShiL1617/ShiL1617.github.io/blob/master/public/images/RANSAC_hw3_larger.png)
+
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/RANSAC_hw3_larger.png" width="600" />
+</p>
+
+
 
 Through this project, we created our own image panoramas, relying on techniques
 in feature detection/matching, homographies, and RANSAC algorithms.
