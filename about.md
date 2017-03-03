@@ -11,6 +11,8 @@ My degree and coursework say I'm a materials scientist. Yet, my research experie
 
 Coupled with my past experience working with wearable medical devices, I started to wonder how robotics could impact human-machine interfaces. To this end, I'm looking forward to learning all I can, and hopefully establish a career, in medical robotics.
 
+![link to my GitHub](https://github.com/ShiL1617)
+
 ### Research interests
 * Machine Learning/AI
 * Control Systems
