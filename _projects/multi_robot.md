@@ -124,4 +124,4 @@ Experimental efforts also introduce new problems to consider such as being able 
 This project is a work in progress, please come back for future updates.
 
 ## References
-[1] "Control of Wheeled Mobile Robots: An Experimental Overview"
+[1] A. De Luca, G. Oriolo, M. Vendittelli. "Control of Wheeled Mobile Robots: An Experimental Overview", https://link.springer.com/chapter/10.1007%2F3-540-45000-9_8
