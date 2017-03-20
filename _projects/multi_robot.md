@@ -15,7 +15,7 @@ Preliminary results indicate promise in trajectory following with circular traje
 
 ## Implementation
 
-The project package can be found at
+The project package can be found at the following [link](https://github.com/ShiL1617/Winter2017-Project/tree/master/winter_project).
 
 I structure the nodes as follows:
 
@@ -65,7 +65,8 @@ The RViz visualization shown hereafter depicts the robots' tf frames, moving rel
 
 Please see the following video for preliminary results.
 
-(trajectory video)
+<!-- (trajectory video) -->
+[![Alt text for your video](https://img.youtube.com/vi/HNrg-_bM6lA/0.jpg)](https://www.youtube.com/watch?v=HNrg-_bM6lA)
 
 #### Challenges/Improvements
 
@@ -92,7 +93,7 @@ The RViz visualization shown hereafter depicts the robots' tf frames, moving rel
 
 Please see the following video for preliminary results.
 
-(shape formation video)
+[![shape formation video](https://img.youtube.com/vi/HNrg-_bM6lA/0.jpg)](https://www.youtube.com/watch?v=HNrg-_bM6lA)
 
 #### Challenges/Improvements
 I had implemented tolerances at each turn-drive-turn phase, in order for the feedback proportional control to terminate at an "appropriate" point. I loosely define what "appropriate" means because proportional control should theoretically oscillate, but still have non-zero steady state error. Implementing an additional integral term for PI control may be an option to consider.
