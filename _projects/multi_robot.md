@@ -17,10 +17,9 @@ Preliminary results indicate promise in trajectory following with circular traje
 
 I structure the nodes as follows:
 
-(image here of node chart)
-<!-- <p align="center">
-<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/mycanny.jpg" width="600" />
-</p> -->
+<p align="left">
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/node_diagram.png" width="600" />
+</p>
 
 Please note that the above image represents the general sequence of node operation, and that the names of the topics and nodes themselves change with the specific application being considered.
 
@@ -34,10 +33,9 @@ In this example, my goal is to demonstrate leader-follower formation behavior. T
 
 I followed the approach set forth by Luca et. al, where they derive a globally asymptotically stable nonlinear control based on Lyapunov stability analysis. The control law is presented as follows:
 
-(picture of trajectory control law)
-<!-- <p align="center">
-<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/mycanny.jpg" width="600" />
-</p> -->
+<p align="left">
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/traj_control_law.png" width="600" />
+</p>
 
 Further details about the control law can be found in the paper, which I point to in the references [1].
 
