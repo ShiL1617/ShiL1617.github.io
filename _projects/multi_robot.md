@@ -51,7 +51,7 @@ For implementation, three components are particularly crucial: pahse variables, 
 
 Phase variables are introduced as a means of introducing artificial delay so that each robot will follow its predecessor at a fixed distance. I define a scaling factor to allow for real-time adaptation of how close each robot is to another.
 
-I implemented a relatively simple collision detection heuristic, involving the following steps (for one robot relative to the rest of the robots):
+I implemented a relatively simple collision detection methodology, involving the following steps (for one robot relative to the rest of the robots):
 
     1) Define a "safety" bounding box around each robot based on the distance it would have traveled with maximum velocity over the defined time step
 
@@ -79,7 +79,7 @@ Some immediate improvements I seek to implement include more robust timers to en
 
 Shape formation is accomplished by specifying initial and goal pose information for each robot. Each robot will navigate to its goal pose by the method outlined below, while attempting to avoid each other on the way.
 
-As previously mentioned, shape formation with collision detection showed initial success owing to the implementation of the aforementioned collision detection. I use the following heuristic in defining the velocity control law to drive each robot:
+As previously mentioned, shape formation with collision detection showed initial success owing to the implementation of the aforementioned collision detection. I use the following methodology in defining the velocity control law to drive each robot:
 
     1) robot will turn toward the angle such that it is facing the desired goal position, with feedback proportional control- linear velocity is zero, while angular velocity is nonzero
 
@@ -121,6 +121,8 @@ $ roslaunch winter_project shape_formation.launch
 I am concurrently building real differential drive robots to validate my simulations. To communicate wheel motor commands, such as wheel velocity and direction, I intend to utilize XBee communication. A camera will be mounted overhead in such a configuration that, ideally, the pose of every robot can be transmitted to the central computer at any given time.
 
 Experimental efforts also introduce new problems to consider such as being able to handle missing robots. If the computer doesn't know the pose of one robot at some instant, that robot would not know which instructions to follow at that point. Other robots may risk driving into it. A few considerations exist, such as taking its previous velocity and extrapolating a path until the robot is detected again.
+
+Immediate goals I have to set up the hardware side of my project include: enabling AR tag tracking to do automatic tag assignment based on initial least squares error.
 
 This project is a work in progress, please come back for future updates.
 
