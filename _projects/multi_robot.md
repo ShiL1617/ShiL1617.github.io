@@ -66,7 +66,7 @@ The RViz visualization shown hereafter depicts the robots' tf frames, moving rel
 Please see the following video for preliminary results.
 
 <!-- (trajectory video) -->
-[![Alt text for your video](https://img.youtube.com/vi/HNrg-_bM6lA/0.jpg)](https://www.youtube.com/watch?v=HNrg-_bM6lA)
+[![Alt text for your video](https://img.youtube.com/vi/PaHwkj7M4pM/0.jpg)](https://www.youtube.com/watch?v=PaHwkj7M4pM)
 
 #### Challenges/Improvements
 
@@ -93,7 +93,7 @@ The RViz visualization shown hereafter depicts the robots' tf frames, moving rel
 
 Please see the following video for preliminary results.
 
-[![shape formation video](https://img.youtube.com/vi/HNrg-_bM6lA/0.jpg)](https://www.youtube.com/watch?v=HNrg-_bM6lA)
+[![shape formation video](https://img.youtube.com/vi/FV6kX6o0pmo/0.jpg)](https://www.youtube.com/watch?v=FV6kX6o0pmo)
 
 #### Challenges/Improvements
 I had implemented tolerances at each turn-drive-turn phase, in order for the feedback proportional control to terminate at an "appropriate" point. I loosely define what "appropriate" means because proportional control should theoretically oscillate, but still have non-zero steady state error. Implementing an additional integral term for PI control may be an option to consider.
