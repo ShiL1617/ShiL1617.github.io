@@ -2,7 +2,7 @@
 layout: project
 title: Multi Robot Control and Planning
 date: January 14, 2017
-image: multi_robot_tf_frames_expanded.png
+image: spiral_swarm.png
 ---
 
 ## Overview
