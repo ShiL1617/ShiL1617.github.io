@@ -8,8 +8,7 @@ image: multi_robot_tf_frames_expanded.png
 ## Overview
 
 For my winter quarter project in the MSR program, I am seeking to simulate multiple wheeled robots to exhibit classical swarm robotics behaviors, such
-as leader follower formations. This endeavor represents my first exploration
-into indpendently implementing concepts of robotic control and trajectory generation. I utilize a centralized approach to broadcast velocity commands to each robot from a central computer.
+as leader follower formations. This is my first endeavor in implementing concepts of robotic control and trajectory generation. I utilize a centralized approach to broadcast velocity commands to each robot from a central computer.
 
 Preliminary results indicate promise in trajectory following with circular trajectories, as well as shape formation with collision detection/avoidance. The latter came as an unexpected surprise when I was testing my collision detection algorithm originally intended for trajectory following application.
 
@@ -47,7 +46,7 @@ where k1 and k3 are equivalent gain functions, and \bar{k2} is constant:
 
 Further details about the control law can be found in the paper, which I point to in the references [1].
 
-For implementation, three components are particularly crucial: pahse variables, collision detection, and timers.
+For implementation, three components are particularly crucial: phase variables, collision detection, and timers.
 
 Phase variables are introduced as a means of introducing artificial delay so that each robot will follow its predecessor at a fixed distance. I define a scaling factor to allow for real-time adaptation of how close each robot is to another.
 
