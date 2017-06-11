@@ -7,7 +7,7 @@ image: pre_grasp.png
 
 ## Overview
 
-Underwater robotics represent an interesting problem domain that offers its own unique challenges. Computer vision based algorithms that may have been highly effective on land may be rendered ineffective due to low visibility conditions underwater, while on the other end of the spectrum contact based sensing methods may not be ideal due to noise or sensitivities due to vibration. Sonar is a natural, and well-established, alternative to the above two sensing modalities, yet has its own limitation, namely in the case of shorter (cm to meter) length scales. Electrosense, which is a bio-inspired form of sensing based on perturbations of a self-generated AC electric field, is a promising approach to address this blind spot.
+Underwater robotics represent an interesting problem domain that offer its own unique challenges. Computer vision based algorithms that may have been highly effective on land may be rendered ineffective due to low visibility conditions underwater, while on the other end of the spectrum contact based sensing methods may not be ideal due to noise or sensitivities due to vibration. Sonar is a natural, and well-established, alternative to the above two sensing modalities, yet has its own limitation, namely in the case of shorter (cm to meter) length scales. Electrosense, which is a bio-inspired form of sensing based on perturbations of a self-generated AC electric field, is a promising approach to address this blind spot.
 
 For this project, we seek to apply principles of electrosense to assist in various robotic manipulation tasks, such as grasping. The Smith group at UW Seattle [1], has done extensive work on electric field based “pre-touch” grasp planning, which utilizes the electrosense concept to increase the success rate of grasps. We seek to extend this idea to underwater object localization, “pre-touch,” and grasping maneuvers.
 
@@ -34,6 +34,8 @@ This is ongoing work, please come back for future updates.
 ## References
 
 [1] https://sensor.cs.washington.edu/pubs/ML/robotics/an_electric_field_pretouch.pdf
+
 [2] https://arxiv.org/abs/1703.09312
+
 [3] https://pdfs.semanticscholar.org/8916/29180b02bdc7adf967628c98e2cda72a1099.pdf
 
