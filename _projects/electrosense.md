@@ -100,7 +100,7 @@ Following the pseudocode, we can set up the object localization experiment with 
 * If this were the electric field sensing, distance information in additional dimensions could be captured due to electric field propagation via dipole effects
     * This relaxes the constraints on the target object location
 * With the previous reasoning, the implemented heuristic algorithm could perform better in the search task once the integrated electrosense in robot arm is working
-    * With additional sensors on the digits, the additional information can be useful for a mroe informed grasping method
+    * With additional sensors on the digits, the additional information can be useful for a more informed grasping method
 
 # *Future Directions*
 * **Continue Investigation of Electrosense and Robot Integration Issues**
