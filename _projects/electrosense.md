@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Electrosense Assisted Robotic Manipulation
-date: June 11, 2017
+date: December 8, 2017
 image: pre_grasp.png
 ---
 
