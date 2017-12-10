@@ -23,11 +23,11 @@ This section details the results of the experiments mentioned in the overview. T
 
 #### **Demodulation Circuits**
 <p align="left">
-<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/demodulation_ckt.jpg" width="600" />
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/demodulation_ckt.jpg" width="800" />
 </p>
 
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7ZEZKu5Wijc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/7ZEZKu5Wijc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 * These were built for two reasons:
@@ -38,7 +38,7 @@ This section details the results of the experiments mentioned in the overview. T
 #### **MoveIt! Simulations**
 
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/G9TQy8T0zQ8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/G9TQy8T0zQ8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 * The ROS package I created to integrate the HDT robot arm with MoveIt! enables the user to specify an arbitrary start point and end point.
@@ -75,11 +75,11 @@ Following the pseudocode, we can set up the object localization experiment with 
 * Please see the following videos:
 
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vpR6FrtdQTY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/vpR6FrtdQTY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1LAnjYsNBJw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/1LAnjYsNBJw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
     * The robot simulation seen on the left hand side moves faster than the real robot on the right hand side because the real robot has joint velocity limits
@@ -89,7 +89,7 @@ Following the pseudocode, we can set up the object localization experiment with 
 * The ROS nodes are structured as follows:
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/rqt_graph_control.png" width="600" />
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/rqt_graph_control.png" width="800" />
 </p>
 
     * The robot is controlled by publishing JointState commands to the joint_state topic, and ROS retrieves the range sensor output from via serial communication from the rosserial package
