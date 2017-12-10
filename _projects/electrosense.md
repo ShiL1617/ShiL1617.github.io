@@ -89,7 +89,7 @@ Following the pseudocode, we can set up the object localization experiment with 
 * The ROS nodes are structured as follows:
 
 <p align="left">
-<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/rqt_graph_control.png" width="800" />
+<img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/rqt_graph_control.png" width="1200" />
 </p>
 
     * The robot is controlled by publishing JointState commands to the joint_state topic, and ROS retrieves the range sensor output from via serial communication from the rosserial package
