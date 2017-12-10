@@ -75,11 +75,11 @@ Following the pseudocode, we can set up the object localization experiment with 
 * Please see the following videos:
 
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vpR6FrtdQTY" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vpR6FrtdQTY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=1LAnjYsNBJw" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1LAnjYsNBJw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
     * The robot simulation seen on the left hand side moves faster than the real robot on the right hand side because the real robot has joint velocity limits
