@@ -100,6 +100,7 @@ Following the pseudocode, we can set up the object localization experiment with 
 * If this were the electric field sensing, distance information in additional dimensions could be captured due to electric field propagation via dipole effects
     * This relaxes the constraints on the target object location
 * With the previous reasoning, the implemented heuristic algorithm could perform better in the search task once the integrated electrosense in robot arm is working
+    * With additional sensors on the digits, the additional information can be useful for a mroe informed grasping method
 
 # *Future Directions*
 * **Continue Investigation of Electrosense and Robot Integration Issues**
@@ -118,7 +119,7 @@ Following the pseudocode, we can set up the object localization experiment with 
 * **More Informed Search Methods**
     * An aforementioned flaw of the implemented heuristic algorithm is its “brute-force” approach. A more systematic approach to perform intelligent search in the object localization problem is ergodic exploration [2]
 
-## References
+# *References*
 
 [1]. Y. Silverman, J. Snyder, Y. Bai, M. MacIver.“Location and Orientation Estimation with an Electrosense Robot”. https://nxr.northwestern.edu/sites/default/files/publications/Silv12a.pdf
 [2]. L. Miller, Y. Silverman, M. MacIver, T. Murphey. “Ergodic Exploration of Distributed Information”. https://nxr.northwestern.edu/sites/default/files/publications/Mill16a_ergodic_control_distributed_info.pdf
