@@ -17,6 +17,12 @@ image: pre_grasp.png
         * This could be useful eventually for motion planning, such as more complex path planning if needed
     * In parallel, I conducted a variety of experiments for debugging and troubleshooting the electric field sensing          (currently does not work integrated into the robot arm)
 
+* Project Advisors:
+    * Professor Malcolm MacIver
+    * Professor Michael Peshkin
+    * Dr. Jarvis Schultz
+
+
 # *Results*
 
 This section details the results of the experiments mentioned in the overview. They are presented in chronological order:
@@ -132,3 +138,4 @@ Following the pseudocode, we can set up the object localization experiment with 
 [1]. Y. Silverman, J. Snyder, Y. Bai, M. MacIver.“Location and Orientation Estimation with an Electrosense Robot”. https://nxr.northwestern.edu/sites/default/files/publications/Silv12a.pdf
 
 [2]. L. Miller, Y. Silverman, M. MacIver, T. Murphey. “Ergodic Exploration of Distributed Information”. https://nxr.northwestern.edu/sites/default/files/publications/Mill16a_ergodic_control_distributed_info.pdf
+
