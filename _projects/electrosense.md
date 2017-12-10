@@ -25,8 +25,9 @@ This section details the results of the experiments mentioned in the overview. T
 <p align="left">
 <img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/demodulation_ckt.jpg" width="600" />
 </p>
+
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=7ZEZKu5Wijc" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7ZEZKu5Wijc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 * These were built for two reasons:
@@ -35,9 +36,11 @@ This section details the results of the experiments mentioned in the overview. T
 
 
 #### **MoveIt! Simulations**
+
 <div align="left">
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=G9TQy8T0zQ8" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/G9TQy8T0zQ8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
+
 * The ROS package I created to integrate the HDT robot arm with MoveIt! enables the user to specify an arbitrary start point and end point.
 * The path planning problem is solved then executed in simulation
 * The robot starting configuration is when all joint angles: 1,2,3 are all 0.
@@ -70,20 +73,25 @@ Following the pseudocode, we can set up the object localization experiment with 
 * The target object is static, and placed in a position that can be detected by the range sensor when the robot arm does a full sweep (fully covering the angles spanned by the joint limits) on one joint, while the other two joints are fixed at 0. This applies as well to the remaining combinations of angles.
 
 * Please see the following videos:
+
 <div align="left">
     <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vpR6FrtdQTY" frameborder="0" allowfullscreen></iframe>
 </div>
+
 <div align="left">
     <iframe width="560" height="315" src="https://www.youtube.com/watch?v=1LAnjYsNBJw" frameborder="0" allowfullscreen></iframe>
 </div>
+
     * The robot simulation seen on the left hand side moves faster than the real robot on the right hand side because the real robot has joint velocity limits
     * The videos show a side by side comparison of simulated robot visualization (with a trail showing the approximate position of the end-effector over time) and the real robot arm executing the path.
     * The videos also show a real-time printout of the range sensor values in the terminal on the left, which changes depending where the end-effector is relative to the sensed object
 
 * The ROS nodes are structured as follows:
+
 <p align="left">
 <img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/rqt_graph_control.png" width="600" />
 </p>
+
     * The robot is controlled by publishing JointState commands to the joint_state topic, and ROS retrieves the range sensor output from via serial communication from the rosserial package
 
 #### **Human in the Loop Analysis**
@@ -122,4 +130,5 @@ Following the pseudocode, we can set up the object localization experiment with 
 # *References*
 
 [1]. Y. Silverman, J. Snyder, Y. Bai, M. MacIver.“Location and Orientation Estimation with an Electrosense Robot”. https://nxr.northwestern.edu/sites/default/files/publications/Silv12a.pdf
+
 [2]. L. Miller, Y. Silverman, M. MacIver, T. Murphey. “Ergodic Exploration of Distributed Information”. https://nxr.northwestern.edu/sites/default/files/publications/Mill16a_ergodic_control_distributed_info.pdf
