@@ -19,7 +19,7 @@ image: pre_grasp.png
 
 # *Results*
 
-This section details the results of the experiments mentioned in the overview. They are presented in chronological order (pictures are embedded in this document, videos are referred to by name and attached with this report in the email submission):
+This section details the results of the experiments mentioned in the overview. They are presented in chronological order:
 
 #### **Demodulation Circuits**
 <p align="left">
