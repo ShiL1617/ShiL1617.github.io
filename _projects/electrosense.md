@@ -53,11 +53,12 @@ This section details the results of the experiments mentioned in the overview. T
 * The robot highlighted in orange represents the goal pose.
 
 #### **Object Localization**
-* Sensor used is a time-of-flight IR range finding sensor, with a max sensed distance of 10 cm (manufacturer specifies >10cm can be detected, depending on object reflectivity and ambient conditions)
+* Due to the electric field sensors not working when integrated with the robot manipulator, possibly due to unintended electrical grounding effects, I used a range finder sensor as a proxy to continue the object localization experiments.
+* Range finding sensor used is a [VL6180 time-of-flight IR range finding sensor](https://www.sparkfun.com/products/12785), with a max sensed distance of 10 cm (manufacturer specifies >10cm can be detected, depending on object reflectivity and ambient conditions)
+* Sensor data is processed on an [Arduino Uno R3 Microcontroller](https://www.adafruit.com/product/50) then transferred through serial communication to ROS
 * The robot end effector simultaneously scans the local environment and collects proximity distance data to find regions of interest in order to constrain the search space
 * The regions of interest are those which the range sensor value (proximity distance) are smaller than average. With this, we can infer an object is nearby.
 * The aforementioned process is best described as a heuristic algorithm, with pseudocode below:
-
 
 * Radial Sweeping Heuristic Algorithm Pseudocode
     ```sh
