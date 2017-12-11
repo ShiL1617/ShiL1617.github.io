@@ -120,21 +120,21 @@ This section details the results of the experiments mentioned in the overview. T
     * With additional sensors on the digits, the additional information can be useful for a more informed grasping method
 
 # *Future Directions*
-* **Continue Investigation of Electrosense and Robot Integration Issues**
-    * further debugging steps:
-        * Via Oscilloscope and Multimeter Analysis, probe the sensor boards in the box, focus on inspecting the raw signal passed into the box after buffer amplification. From this sequentially assess if each checkpoint gives a result as expected from understanding of the electronics (ex. demodulation)
+**Continue Investigation of Electrosense and Robot Integration Issues**
+* further debugging steps:
+    * Via Oscilloscope and Multimeter Analysis, probe the sensor boards in the box, focus on inspecting the raw signal passed into the box after buffer amplification. From this sequentially assess if each checkpoint gives a result as expected from understanding of the electronics (ex. demodulation)
         * Find out what is grounding, or interfering with the electric field sensing
-* **Reliable Inverse Kinematics Solutions**
-    * constrained inverse kinematics considerations for path planning or trajectory following
-        * The limited number of degrees of freedom constrains the robot end effector to only be specified by position, not orientation.
-        * Due to the 3 degrees of freedom in the robot arm, the end effector cannot traverse the entirety of Cartesian (x,y,z) space. Therefore any IK solution would have to take account of the robot’s workspace
-* **Further Underwater Testing**
-    * Mounting to SensorPod robot
-        * Enables the robot manipulator’s end-effector to reach arbitrary (x, y, z, roll, pitch, yaw) due to 4 additional degrees of freedom (x, y, z, yaw) for the gantry configuration variables
-        * State estimation
-            * Upon mounting the robot arm to the SensorPod, there may be uncertainty about the gantry pose, and therefore introduces uncertainty in the robot manipulator end-effector pose estimates. State estimation techniques could be considered for this problem, such as using particle filters with electrosense measurements to solve the localization problem [1].
-* **More Informed Search Methods**
-    * An aforementioned flaw of the implemented heuristic algorithm is its “brute-force” approach. A more systematic approach to perform intelligent search in the object localization problem is ergodic exploration [2]
+**Reliable Inverse Kinematics Solutions**
+* constrained inverse kinematics considerations for path planning or trajectory following
+    * The limited number of degrees of freedom constrains the robot end effector to only be specified by position, not orientation.
+    * Due to the 3 degrees of freedom in the robot arm, the end effector cannot traverse the entirety of Cartesian (x,y,z) space. Therefore any IK solution would have to take account of the robot’s workspace
+**Further Underwater Testing**
+* Mounting to SensorPod robot
+    * Enables the robot manipulator’s end-effector to reach arbitrary (x, y, z, roll, pitch, yaw) due to 4 additional degrees of freedom (x, y, z, yaw) for the gantry configuration variables
+    * State estimation
+        * Upon mounting the robot arm to the SensorPod, there may be uncertainty about the gantry pose, and therefore introduces uncertainty in the robot manipulator end-effector pose estimates. State estimation techniques could be considered for this problem, such as using particle filters with electrosense measurements to solve the localization problem [1].
+**More Informed Search Methods**
+* An aforementioned flaw of the implemented heuristic algorithm is its “brute-force” approach. A more systematic approach to perform intelligent search in the object localization problem is ergodic exploration [2]
 
 # *References*
 
