@@ -77,9 +77,9 @@ This section details the results of the experiments mentioned in the overview. T
     [c] just moving every digit closer while preserving minimum distance criterion
     ```
 
-Following the pseudocode, we can set up the object localization experiment with the following assumptions:
-* A human teleoperator controls the robot joint states, with feedback solely from the returned range sensor values (human operator cannot see where real robot arm is relative to target object)
-* The target object is static, and placed in a position that can be detected by the range sensor when the robot arm does a full sweep (fully covering the angles spanned by the joint limits) on one joint, while the other two joints are fixed at 0. This applies as well to the remaining combinations of angles.
+* Following the pseudocode, we can set up the object localization experiment with the following assumptions:
+    * A human teleoperator controls the robot joint states, with feedback solely from the returned range sensor values (human operator cannot see where real robot arm is relative to target object)
+    * The target object is static, and placed in a position that can be detected by the range sensor when the robot arm does a full sweep (fully covering the angles spanned by the joint limits) on one joint, while the other two joints are fixed at 0. This applies as well to the remaining combinations of angles.
 
 * Please see the following videos:
 
@@ -101,7 +101,7 @@ Following the pseudocode, we can set up the object localization experiment with 
 <img src="https://raw.githubusercontent.com/ShiL1617/ShiL1617.github.io/master/public/images/rqt_graph_control.png" width="1200" />
 </p>
 
-    * The robot is controlled by publishing JointState commands to the joint_state topic, and ROS retrieves the range sensor output from via serial communication from the rosserial package
+* The robot is controlled by publishing JointState commands to the joint_state topic, and ROS retrieves the range sensor output from via serial communication from the rosserial package
 
 #### **Human in the Loop Analysis**
 * The two videos show initial promise for this approach
