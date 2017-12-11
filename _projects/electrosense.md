@@ -121,7 +121,7 @@ This section details the results of the experiments mentioned in the overview. T
 
 # *Future Directions*
 **Continue Investigation of Electrosense and Robot Integration Issues**
-* further debugging steps:
+* further debugging steps
     * Via Oscilloscope and Multimeter Analysis, probe the sensor boards in the box, focus on inspecting the raw signal passed into the box after buffer amplification. From this sequentially assess if each checkpoint gives a result as expected from understanding of the electronics (ex. demodulation)
         * Find out what is grounding, or interfering with the electric field sensing
 **Reliable Inverse Kinematics Solutions**
