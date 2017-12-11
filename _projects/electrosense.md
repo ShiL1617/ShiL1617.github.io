@@ -91,9 +91,9 @@ Following the pseudocode, we can set up the object localization experiment with 
     <iframe width="800" height="600" src="https://www.youtube.com/embed/1LAnjYsNBJw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
-    * The robot simulation seen on the left hand side moves faster than the real robot on the right hand side because the real robot has joint velocity limits
-    * The videos show a side by side comparison of simulated robot visualization (with a trail showing the approximate position of the end-effector over time) and the real robot arm executing the path.
-    * The videos also show a real-time printout of the range sensor values in the terminal on the left, which changes depending where the end-effector is relative to the sensed object
+* The robot simulation seen on the left hand side moves faster than the real robot on the right hand side because the real robot has joint velocity limits
+* The videos show a side by side comparison of simulated robot visualization (with a trail showing the approximate position of the end-effector over time) and the real robot arm executing the path.
+* The videos also show a real-time printout of the range sensor values in the terminal on the left, which changes depending where the end-effector is relative to the sensed object
 
 * The ROS nodes are structured as follows:
 
