@@ -9,8 +9,8 @@ image: pre_grasp.png
 
 * Throughout the project, I accomplished the following:
     * Built prototype electric field sensing circuits from existing designs
-    * Implemented target object localization with a robot manipulator with IR range finder sensing via joint control
-        * Human in the loop with IR time-of-flight range finder
+    * Implemented target object localization with a [HDT Adroit-M Undersea Manipulator](http://www.hdtglobal.com/product/adroit-m-undersea-manipulator/) robot arm with IR range finder sensing
+        * Human in the loop experiments with IR time-of-flight range finder
     * Also setup the configuration files necessary for MoveIt!
         * MoveIt! is an open source motion planning/path planning framework integrated with ROS)
         * I include some videos of simulations (through RViz visualization software)
@@ -22,6 +22,8 @@ image: pre_grasp.png
     * Professor Michael Peshkin
     * Dr. Jarvis Schultz
 
+* Code Disclaimer:
+    * Some of the code base, such as those relating to the proprietary lower level control and drivers for the HDT robot arm, is not open-source. Please message for further inquiries about the code base.
 
 # *Results*
 
@@ -76,7 +78,7 @@ This section details the results of the experiments mentioned in the overview. T
     ```
 
 Following the pseudocode, we can set up the object localization experiment with the following assumptions:
-* A human teleoperator controls the robot, with feedback solely from the returned range sensor values (human operator cannot see where real robot arm is relative to target object)
+* A human teleoperator controls the robot joint states, with feedback solely from the returned range sensor values (human operator cannot see where real robot arm is relative to target object)
 * The target object is static, and placed in a position that can be detected by the range sensor when the robot arm does a full sweep (fully covering the angles spanned by the joint limits) on one joint, while the other two joints are fixed at 0. This applies as well to the remaining combinations of angles.
 
 * Please see the following videos:
