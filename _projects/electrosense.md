@@ -124,6 +124,7 @@ This section details the results of the experiments mentioned in the overview. T
 * further debugging steps
     * Via Oscilloscope and Multimeter Analysis, probe the sensor boards in the box, focus on inspecting the raw signal passed into the box after buffer amplification. From this sequentially assess if each checkpoint gives a result as expected from understanding of the electronics (ex. demodulation)
         * Find out what is grounding, or interfering with the electric field sensing
+
 **Reliable Inverse Kinematics Solutions**
 * constrained inverse kinematics considerations for path planning or trajectory following
     * The limited number of degrees of freedom constrains the robot end effector to only be specified by position, not orientation.
